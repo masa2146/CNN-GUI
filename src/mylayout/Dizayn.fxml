@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="277.0" prefWidth="540.0" styleClass="mainFxmlClass" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="mylayout.DizaynController">
+    <stylesheets>
+        <URL value="@dizayn.css" />
+    </stylesheets>
+   <children>
+      <TextField layoutX="207.0" layoutY="63.0" />
+      <Label layoutX="105.0" layoutY="67.0" text="Output" />
+      <TextField layoutX="207.0" layoutY="109.0" />
+      <Label layoutX="105.0" layoutY="113.0" text="Hidden Layer" />
+      <Button layoutX="397.0" layoutY="109.0" mnemonicParsing="false" text="Add" />
+      <Button layoutX="256.0" layoutY="189.0" mnemonicParsing="false" text="Create" />
+   </children>
+</AnchorPane>
